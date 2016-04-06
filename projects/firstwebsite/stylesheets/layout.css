@@ -1,0 +1,46 @@
+p{
+margin-left: 250px;
+margin-right: 5px;
+margin-top: 0px;
+}
+nav p{
+margin: 0px;
+
+}
+h1{
+padding-top: 50px;
+padding-left: 250px;
+}
+
+nav{
+width: 225px;
+float: left;
+position: absolute;
+}
+select{
+	padding-top: 10px;
+    padding-bottom: 10px;
+	width: 225px;
+}
+option{
+padding: 7px 10px 7px 10px;
+}
+ul{
+	padding-top: 10px;
+    padding-bottom: 10px;
+	width: 225px;
+}
+li{
+padding: 7px 10px 7px 10px;
+}
+footer{
+clear: left;
+text-align: center;
+margin-top: 150px;
+height: 20px;
+}
+
+.foot a{
+position: absolute;
+z-index: 1;
+}

@@ -1,0 +1,11 @@
+
+body{
+/*background-color: #000000;*/
+margin: 0;
+}
+
+.box{
+border-left: 100px solid;
+border-image: linear-gradient(to left, #3acfd5 0%, #3a4ed5 100%);
+border-image-slice: 1;
+}

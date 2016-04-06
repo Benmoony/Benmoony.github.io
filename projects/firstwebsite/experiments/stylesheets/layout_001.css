@@ -1,0 +1,11 @@
+html{
+height: 100%;
+}
+
+body{
+min-height: 100%;
+}
+.box{
+min-height: 100vh;
+min-width: 100vh;
+}

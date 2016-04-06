@@ -4,12 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Ben Miller</title>
+	<link rel="stylesheet" href="styles/normalize.css" type="text/css"/>
+	<link rel="stylesheet" href="styles/skeleton.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/format.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+	
 </head>
 
 <body>
-	<div id="nav">
+	<header id="nav" class="container">
 		<nav>
 		<div class="logo">
 			<img src="images/BENLOGO.png" alt="logo">
@@ -18,7 +21,7 @@
 		<a href="#work"><span>WORK</span></a>
 		<a href="#contact"><span>CONTACT</span></a>
 		</nav>
-	</div>
+	</header>
 <section id="about">
 	<h1>About</h1>
 	<img class="face" src="images/benface.jpg" alt="benface">
@@ -28,15 +31,27 @@
 	</section>
 	<section id="work">
 	<h1>Work</h1>
-	<p>TESTING GITHUB CHANGES TESTING GITHUB CHANGESTESTING GITHUB CHANGESTESTINGTESTING GITHUB CHANGESTESTING GITHUB CHANGESTESTING GITHUB CHANGESTESTING GITHUB CHANGESTESTING GITHUB CHANGESTESTING
-
-	Proin efficitur tempus justo eget placerat. Nullam fermentum odio a fringilla euismod. Nunc sagittis sem mauris, id dictum lorem placerat ut. Vivamus maximus velit in dapibus viverra. Duis ut lorem nulla. Mauris nisi arcu, fringilla a varius non, tincidunt id libero. Cras viverra vel lacus vel iaculis. Nunc in leo placerat, condimentum lorem non, suscipit sapien. Fusce sollicitudin mattis dui. Cras in lorem felis. Quisque vehicula cursus blandit. Nam molestie justo sed turpis feugiat, id placerat nunc commodo. Integer non lacus ipsum. Praesent justo lacus, faucibus eu tellus at, gravida laoreet metus. Duis consectetur fringilla erat, et convallis est vestibulum et.
-
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate eleifend libero. In maximus gravida est in scelerisque. Curabitur pretium, neque nec rutrum volutpat, tellus augue dictum urna, ut accumsan massa tellus ut purus. Praesent et neque ex. Quisque vitae placerat sapien. Etiam tincidunt, eros ut iaculis porta, justo ante facilisis mauris, ac lacinia sem sem sit amet nisl. Praesent euismod vel sapien ut dignissim. Sed efficitur dui in pulvinar varius. Praesent tempor risus ac nibh posuere imperdiet. Quisque in arcu ut elit ornare vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent nec risus ac nulla malesuada tempor. Curabitur pharetra quis elit id gravida.
-
-	Mauris magna lectus, faucibus varius dignissim in, tristique eget tortor. Fusce efficitur enim ac diam rutrum ultricies. Curabitur lobortis egestas vehicula. Mauris eu lectus massa. Curabitur sollicitudin fringilla risus, a aliquet lectus dictum sit amet. Pellentesque finibus semper turpis et bibendum. Praesent pellentesque ante sagittis, pellentesque purus vitae, tincidunt lorem. Ut ornare, leo vel egestas gravida, leo mauris finibus magna, vel commodo tellus ligula sed erat. Proin ac consectetur orci, vel venenatis mi. Proin accumsan dui sed eros congue, nec ultrices ligula eleifend. Nam tristique maximus lectus, a accumsan lectus lobortis in. Integer ultricies ligula sapien, quis scelerisque augue malesuada a. Aliquam eget erat sed justo molestie viverra. Integer dictum vulputate ornare.
-
-	Suspendisse enim odio, auctor at tempus vitae, dapibus id arcu. Donec egestas iaculis eros nec rhoncus. Praesent gravida dolor nec dolor rutrum, ac viverra nunc molestie. Maecenas velit risus, pharetra et efficitur et, sagittis eget ante. Morbi placerat vehicula neque vitae fermentum. Donec eu sollicitudin urna. Vivamus eget elit viverra magna ultricies efficitur vel sit amet ex. Etiam scelerisque nibh id augue malesuada, sed dignissim eros imperdiet. Sed rhoncus iaculis urna sit amet imperdiet. Aenean placerat mauris et risus sollicitudin efficitur id eget magna. Etiam vel enim est. Sed nec suscipit arcu, sed interdum sapien.</p>
+		<div class="row">
+			<figure class="one-third column">
+			<a href="projects/firstwebsite/index.html"><img src="images/firstportfolio.png"></a>
+				<figcaption>First Website</figcaption>
+			</figure>
+			
+			<figure class="one-third column">
+				<a href="projects/finalproject/index.html">Final Project BIT 112</a>
+				<figcaption>Final Project</figcaption>
+			</figure>
+			<figure class="one-third column">
+				<a href="projects/bit168/index.html">BIT 168</a>
+				<figcaption>Portfolio Website BIT 168</figcaption>
+			</figure>
+		</div>
+		<div class="row">
+			<figure class="one-third column">
+			<a href="projects/barappproto/index.html">Prototype Bar App</a>
+				<figcaption>Prototype Bar App</figcaption>
+			</figure>
+		</div>
 	</section>
 	<section id="contact">
 	<h1>Contact</h1>

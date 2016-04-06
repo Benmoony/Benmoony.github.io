@@ -1,0 +1,101 @@
+/* CSS Formatting Document */
+
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	font: 12pt Georgia, "Times New Roman", Times, serif;
+	margin: 5pt;
+	border-style: solid;
+	border-width: thick;
+}
+
+a:link{
+	color: #084048;
+}
+a:visited{
+	color:#10A7A5;
+}
+a:hover{
+	color:#CC3300;
+}
+dl>dt{
+font-size: 1.1em;
+font-style: bold;
+color: #CC3300;
+margin: 5pt;
+}
+dl>dd{
+padding-right: 50px;
+padding-bottom: 25px;
+}
+
+header{
+padding-left: 250px;
+background-image: url("../images/przlogo.gif");
+background-position: left top;
+background-repeat: no-repeat;
+font-family: Garamond, serif;
+}
+h1{
+font-size: 2em;
+font-style: bold;
+}
+h2{
+font-size: 1.6em;
+font-style: italic;
+text-align: center;
+}
+nav{
+font-family: Gil Sans, Arial, Helvetica, sans-serif;
+font-size: 1.2em;
+padding: 10px 20px 10px;
+}
+nav>ol>li{
+display: inline;
+padding: .2em 1em;
+border-right-width: thin;
+border-right-style: solid;
+border-right-color: #084048;
+}
+section {
+padding: 20px;
+background-image: url("../images/prz_watermark.gif");
+background-position: center, right;
+background-repeat: no-repeat;
+}
+section>headers{
+font-family: font-family: Gil Sans, Arial, Helvetica, sans-serif;
+}
+section>h1{
+font-size: 1.5em;
+}
+section>h2{
+font-size: 1.3em;
+}
+section>h1{
+font-size: 1.1em;
+}
+.bigger li{
+font-size: 1.1em;
+padding-top: .5em;
+padding-bottom: .5em;
+}
+section>ol{
+list-style-type: upper-roman;
+padding-bottom: .8em;
+}
+section>ol>ol{
+list-style-type: lower-alpha;
+}
+footer{
+background-color: #A1D1D1;
+padding: 15px;
+}
+footer>p{
+font-size: .8em;
+font-style: bold;
+text-align: center;
+line-height: 1.1 em;
+margin: none;
+padding: 0;
+}

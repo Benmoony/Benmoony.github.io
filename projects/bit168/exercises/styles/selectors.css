@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Selector Exercise */
+
+/* 1) Use the attribute selector to apply these styles to the list images*/
+img[alt="beet"]{
+	clip:rect(30px,215px,80px,165px);
+	left:-165px;
+	top:-30px;
+}
+img[alt="carrot"]{
+	clip:rect(30px,75px,80px,25px);
+	left:-25px;
+	top:30px;
+}
+img[alt="potato"]{
+	clip:rect(30px,285px,80px,235px);
+	left:-235px;
+	top:90px;
+}
+img[alt="pumpkin"]{
+	clip:rect(30px,360px,80px,310px);
+	top:150px;
+	left:-310px;
+}
+img[alt="broccoli"]{
+	clip:rect(30px, 430px, 80px, 380px);
+	top:210px;
+	left:-380px;
+ 	/* add the clip, left, and top styles needed to continue the pattern */
+}
+
+section p:nth-child(2), p:nth-child(6), p:nth-child(10){
+	background-color: #CF9
+}
+
+section p:nth-child(4), p:nth-child(8){
+	background-color: #CCF
+}
+
+section p{
+	visibility: hidden;
+}
+/* 2) Assign a background color to every other veggie paragraph - #CF9 and #CCF - using the nth-child pseudo-class */
+
+section img:hover+p{
+	visibility: initial;
+	
+}
+/* 3) Hide all veggie paragraphs, but leave space for them (compare display:none vs visibility:hidden)*/
+
+
+
+/* 4) Use the hover psuedo-class to show the veggie paragraph when the mouse is over its image */
+
+
+
+
+
+
+/* DO NOT CHANGE - Base formatting styles below - DO NOT CHANGE  */
+section{position:relative;width:500px}
+img{position:absolute;}
+img+p {width:380px;margin:15px 0 15px 70px;padding:10px 15px;}

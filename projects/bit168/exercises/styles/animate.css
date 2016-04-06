@@ -1,0 +1,139 @@
+/* CSS Animation - A love story */
+/* Setup */
+/* the CSS to apply the "sayClick" keyframe animation to the header>p */
+header>p {
+	-webkit-animation:sayClick 6s ease-in;
+}
+
+/* Setup Keyframes */ 
+@-webkit-keyframes sayClick{
+	  0%{-webkit-transform: translateX(250px);opacity:0;}
+	 30%{-webkit-transform: translateX(0);opacity:1;}
+	 50%{opacity:.3;color:#a01515;}
+	 70%{opacity:1;color:#a01515;}
+	 90%{opacity:.2;color:#a01515;}
+	100%{opacity:1;}
+}
+
+
+/* Scene 1 */
+/* write CSS to apply the "enterBunny" keyframe animation  to the #bunny in .scene_1 */
+.scene_1 #bunny{
+	-webkit-animation:enterBunny 8s ease-in;
+	transform: translate(-65px,-320px);
+}
+/* write CSS using the "zoomIn" keyframe animation on body.scene_1 */
+body.scene_1 {
+	animation: zoomIn 8s ease-in;
+	transform-origin: 80% 60%;
+	transform: scale(2);
+}
+/* write CSS to apply the "ask" keyframe animation to #question in .scene_1 */
+.scene_1 #question{
+	animation: ask 8s ease-in;
+}
+/* write CSS to apply the "respond" keyframe animation to #reply in .scene_1 */
+.scene_1 #reply{
+	animation: respond 8s ease-in;
+	opacity: 1;
+}
+
+/* Scene 1 Keyframes */
+@-webkit-keyframes enterBunny{
+	 0%{-webkit-transform: translate(0);}
+	10%{-webkit-transform: translate(-50px,-200px);}
+	25%{-webkit-transform: translate(-50px,-200px);}
+	30%{-webkit-transform: translate(-35px,-500px);}
+	35%{-webkit-transform: translate(-65px,-320px);}
+}
+@-webkit-keyframes zoomIn{
+	0%{transform: scale(1);}
+	35%{transform: scale(1);}
+	50%{transform: scale(2);}
+}
+@-webkit-keyframes ask{
+	0%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 1;}
+	85%{opacity: 0;}
+}
+@-webkit-keyframes respond{
+	0%{opacity: 0;}
+	65%{opacity: 0;}
+	75%{opacity: 1;}
+	100%{opacity: 1;}
+	
+}
+
+/* Scene 2*/
+/* write CSS using the "responded" keyframe animation to make the #reply disappear in .scene_2 */
+.scene_2 #reply{
+	animation: responded 8s ease-in;
+	opacity: 0;
+}
+/* write CSS using the "zoomOut" keyframe animation on body.scene_2 */
+body.scene_2{
+	animation: zoomOut 8s ease-in;
+	transform: scale(1);
+}
+
+/* write CSS using the "heartJoy" keyframe animation to make #heart grow huge in .scene_2 */
+.scene_2 #heart{
+	animation: heartJoy 8s ease-in;
+	animation: heartMove 8s ease-in;
+	transform: translate(180px, -400px) scale(4);
+	opacity: 1;
+
+}
+
+
+/* write CSS using the "together" keyframe animation to move #bunny close to the valentine in .scene_2 */
+.scene_2 #bunny{
+	animation: together 8s ease-in;
+	transform: translate(-200px, -380px);
+}
+
+/* work out the CSS and keyframe you need to get the sun to shine at the end */
+.scene_2 #sunshine{
+	animation: sunshine 8s ease-in;
+	transform: translate(-600px, 0);
+}
+
+/* Scene 2 Keyframes */
+@-webkit-keyframes responded{
+	0%{opacity: 1;}
+	15%{opacity: 0;}
+
+}
+@-webkit-keyframes zoomOut{
+	0%{transform: scale(2);}
+	35%{transform: scale(1);}
+	50%{transform: scale(1);}
+}
+@-webkit-keyframes together{
+	0%{-webkit-transform: translate(-65px,-320px);}
+	20%{-webkit-transform: translate(0px,-360px);}
+	35%{-webkit-transform: translate(-155px,-340px);}
+	40%{-webkit-transform: translate(-200px,-380px);}
+}
+@-webkit-keyframes heartJoy{
+	0%{opacity: 0;}
+	10%{ opacity: 1;}
+	55%{ opacity: 1;}
+	65%{ opacity: 0;}
+	
+}
+@-webkit-keyframes heartMove{
+	0%{transform: translate(0);}
+	15%{transform: translate(80px, 0px) scale(1, .75);}
+	20%{transform: translate(80px, 0px) scale(1);}
+	35%{transform: translate(180px, -400px scale(4);}
+}
+@-webkit-keyframes sunshine{
+	0%{transform: translate(0);}
+	45%{transform: translate(0);}
+	65%{transform: translate(-600px, 0px);}
+}
+
+
+

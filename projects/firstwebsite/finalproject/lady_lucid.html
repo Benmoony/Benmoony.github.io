@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quest for Harmony</title>
+<link rel="stylesheet" href="styles/format.css" type="text/css"/>
+<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#nav li').hover(
+        function () {
+            //show submenu
+            $('ul', this).slideDown("fast");
+        }, function () {
+            //hide submenu
+            $('ul', this).slideUp("fast");
+        });
+    });
+</script>
+<style>
+body{
+background-image: url("images/ladylucid.jpg");
+} 
+</style>
+</head>
+<body>
+<nav>
+<ul id="nav">
+	<li><a href="home.html">Home</a></li>
+	<li><a href="#">Story</a>
+		<ul>
+			<li><a href="story.html">The Beginning</a>
+			<li><a href="betrayal.html">The Betrayal</a>
+			<li><a href="prophecy.html">The Prophecy</a>
+			<li><a href="runaway.html">Runaway</a>
+			<li><a href="journey.html">The Journey</a>
+			<li><a href="trials.html">Trials and Encounters</a>
+			<li><a href="defeat.html">Defeat</a>
+		</ul>
+	</li>
+	<li><a href="#">Characters</a>
+		<ul>
+			<li><a href="sun_god.html">Sun God</a>
+			<li><a href="moon_god.html">Moon God</a>
+			<li><a href="lavender.html">Lavender</a>
+			<li><a href="brash.html">Brash</a>
+			<li><a href="lady_lucid.html">Lady Lucid</a>
+			<li><a href="jester.html">Jester</a>
+			<li><a href="jack.html">Jack</a>
+			<li><a href="whisper.html">Whisper</a>
+		</ul>
+	</li>
+	<li><a href="about.html">About/Contact Us</a>
+</ul>
+</nav>
+<content>
+<h1>Lady Lucid, Stalker and Spy Extraordinaire</h1>
+<div id=info>
+<p>This elusive Lady is an assassin and spy for the Mooncult. Deft in the art of killing and reconnaissance, she has been instructed by her order to tail Lavender and follow her trail. If our hero gets wind of the going's on behind the scene's, Lady Lucid will be their to silence those inquisitive minds.</p>
+</div>
+</content>
+<footer>
+	<p>All images copyrighted by Atryl and used with permission</p>
+	<p>Website created by Benjamin Miller (WARNING: pages only optimized for 1920x1080 window size)<p>
+</footer>
+</body>

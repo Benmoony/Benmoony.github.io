@@ -1,0 +1,7 @@
+   	<h1>Legal Links</h1>
+	<ul>	
+		<li><a href="#">Washington State Government Information &amp; Services</a></li>
+		<li><a href="#">Seattle Municipal Court</a></li>
+		<li><a href="#">King County District Court</a></li>
+		<li><a href="#">FedWorld Information Network</a></li>
+	</ul>

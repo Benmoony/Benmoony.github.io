@@ -1,0 +1,27 @@
+   	<h1>Our Offices</h1>	
+	<p>There are two offices for your convenince. The main office is in downtown Seattle 
+	  or we will meet with you at the Everett office by appointment. </p>
+	<h2>Driving Directions:</h2>
+	<ol>
+		<li>Seattle Office 1915 Pacific Building, 720 Third Avenue
+			<ol>
+				<li>From I-5 Southbound take the James St. exit. Turn right on Columbia. Go 2 1/2 
+				  blocks downhill and look on your left for the Pacific Building Parking. Turn 
+				  left into the garage.
+				</li>			  
+				<li>From I-5 Northbound take the James St. exit. Turn left on James. Go 2 blocks 
+				  downhill. Turn right on 4th Avenue. Go 2 blocks. Turn left on Columbia. GO 1/2 
+				  block and look on your left for the Pacific Building Parking. Turn left into 
+				  the garage.
+				</li>
+			</ol>
+		</li>
+		<li>Everett Office 3325 Wetmore Ave
+			<ol>
+				<li>From I-5 Northbound or Southbound take the exit at Pacific Avenue. Go uphill towards courthouse. 
+				Just past courthouse, turn left on Wetmore Avenue. Go South on Wetmore 2 blocks 
+				and look for the address  on your left.
+				</li>
+			</ol>
+		</li>
+	</ol>

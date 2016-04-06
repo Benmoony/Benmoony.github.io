@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ben's Profile</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="styles/format.css" type="text/css"/>
+<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+<link rel="stylesheet" href="styles/nav.css" type="text/css"/>
+<script>
+$(document).ready(function(){
+	$(".nav").hover(
+		function(){	
+			$("#tendrils").addClass('tendrilsActive').position({my: "center", at: "center top+115px", of: this});
+		},
+		function(){
+			$("#tendrils").removeClass('tendrilsActive');
+		}
+	);
+	$("#logo").click(function(){
+			$("#stickman").addClass("stickmove");
+			$("#logo").addClass("logomove");
+			
+		}
+	);
+});
+</script> 
+</head>
+<body>
+<div id="wrapper">
+<header>
+<h1>Contact</h1>
+<div class="hidden"></div>
+<div id="stickman"></div>
+<div id="logo"></div>
+</header>
+<nav id='cssmenu'>
+<ul>
+<li class="nav" id="home" ><a href='index.html'>Home</a></li>
+<li class="nav" id="news"><a href='news.html'>News</a></li>
+<li class="nav" id="exercises"><a href='exercises.html'>Exercises</a></li>
+<li class="nav" id="resume"><a href="documents/BenjaminMillerResume.pdf">Resume</a></li>
+<li class="nav active last" id="contact"><a href='contact.html'>Contact</a></li>
+</ul>
+</nav>
+<div id="tendrilsbox">
+	<div id="tendrils"></div>
+</div>
+
+<section class="newssection">
+<div class="wrappe">
+	<h1>CONTACT</h1>
+	<img src="images/benpose.jpg" alt="benpose">
+	<p>Email: benmiller92@gmail.com </p>
+	<p>I would like to extend a thank you for viewing my website. I put a lot of my heart and soul into making this and I believe it properly expresses my skills as a designer right now.</p>
+	<p>There are many things that I wish to change about this website, but for one thing I am very satisfied with the skills I learned in animating and Jquery to enable the cool sprite animations throughout the nav menu</p>
+	<p>If you enjoyed this website and wish to contact me, please email me at benmiller92@gmail.com. Any feedback or inqueries are greatly appreciated. Thanks you! I would like to end this website with one of my favorite pieces of music ever composed in recorded history.</p>
+	</div>
+	<iframe class="epilogue" width="560" height="315" src="https://www.youtube.com/embed/RhruUsKa1Dg" allowfullscreen></iframe>
+	
+</section>
+
+</div>
+<footer>
+<p>©Benjamin Miller, 2016, All Rights Reserved</p>
+<div id="facebook">
+	<a href='https://www.facebook.com/benjamin.miller.7712'><img src="images/facebook-icon.png" alt="facebook"></a>
+</div>
+<div id="linkedin">
+	<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="images/linkedin.jpg" alt="linkedin"></a>
+</div></footer>
+
+</body>
+</html>  

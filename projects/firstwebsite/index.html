@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Portfolio</title>
+<link rel="stylesheet" href="./stylesheets/format_index.css" type="text/css"/>
+<link rel="stylesheet" href="./stylesheets/layout.css" type="text/css"/>
+<link rel="stylesheet" href="./stylesheets/animation.css" type="text/css"/>
+<script> 
+function setDefault(){
+	var Default1 = document.getElementById("dropdown1");
+	Default1.options[0].selected=true;
+	var Default2 = document.getElementById("dropdown2");
+	Default2.options[0].selected=true;
+	var Default3 = document.getElementById("dropdown3");
+	Default3.options[0].selected=true;
+	var Default4 = document.getElementById("dropdown4");
+	Default4.options[0].selected=true;
+}
+</script>
+
+</head>
+
+<body onload="setDefault()">
+<div id="snow">
+</div>
+<header>
+<h1>Benjamin Miller's Profile</h1>
+</header>
+<nav>
+<p>NAVIGATION</p>
+	<div class="styledselect">
+	<select name="Labs" id="dropdown1" onChange="window.location.href=this.value">
+		<option value="" disabled selected>LABS</option>
+		<option value="./labs/ftplab.html">FTP LAB</option>
+		<option value="./labs/html_lab/rain.html">HTML LAB</option>
+		<option value="./labs/css_styling_lab/css_lab_example.html">CSS STYLING LAB</option>
+		<option value="./labs/css_formating_lab/index.html">CSS FORMATING LAB</option>
+		<option value="./labs/css_positioning_lab/index.html">CSS POSITIONING LAB</option>
+		<option value="./labs/css_effects_lab/index.html">CSS EFFECTS LAB</option>
+	</select>
+	<select name="Projects" id="dropdown2" onChange="window.location.href=this.value">
+		<option value="" disabled selected>PROJECTS</option>
+		<option value="./projects/ColorProjectBIT112.pdf">COLOR PROJECT</option>
+		<option value="./projects/DomainNameProjectBIT112.pdf">DOMAIN NAME PROJECT</option>
+	</select>
+	<select name="Learning" id="dropdown3" onChange="window.location.href=this.value">
+		<option value="" disabled selected>LEARNING</option>
+		<option value="./learning/css_play.html">CSS PLAY</option>
+		<option value="./learning/jQueryfun.html">jQUERY PLAY</option>
+	</select>
+	<select name="Final Project" id="dropdown4" onChange="window.location.href=this.value">
+		<option value="" disabled selected>FINAL PROJECT</option>
+		<option value="./finalproject/wireframe/index.html">WIRE FRAME</option>
+		<option value="./finalproject/index.html">TO HOME SCREEN</option>
+	</select>
+	</div>
+</nav>
+<p class="info">
+Hi my name is Benjamin Miller, I am an aspiring Sound Engineer, Video game designer, and Content creator.
+I have a vivid imagination, which I use to fuel stories and ideas that I have for videogames and other fiction content.
+I want to take what I learn here and apply it to my pool of knowledge, so that when I break into the industry,
+I will have something which I can rely upon for the rest of my life.
+</p>
+<footer class="foot"><a href="mailto:benmiller92@gmail.com">Email Me</a></footer>
+</body>
+</html>

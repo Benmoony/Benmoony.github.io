@@ -4,6 +4,7 @@ html{
 
 body{
 	margin: 0;
+	font-size: 150%;
 }
 
 .logo{
@@ -63,6 +64,17 @@ section{
 #contact{
 	background-color: #92BF93;
 }
+figure{
+	margin: 0;
+	margin-right: 0px;
+}
+figure img{
+	width: 100%;
+}
+
+figcaption{
+	display: none;
+}
 
 footer{
 		margin-left: 30%;
@@ -84,8 +96,7 @@ footer p{
 	nav{
 		height: 85px;
 		padding-left: 10px;
-	}
-	
+	}	
 	.logo{
 		position: absolute;
 		margin: 10px;
@@ -93,8 +104,7 @@ footer p{
 		height: 60px;
 		right: 15px;
 		border-radius: 25%;
-	}
-	
+	}	
 	nav a{
 		display: inline-block;
 		width: 19.5%;
@@ -103,22 +113,18 @@ footer p{
 		height: 50px;
 		transition: .25s ease-in;
 	}
-
 	nav a:hover{
 		color: #7B6188;
 		width: 22.5%;
 	}
-
 	.face{
 		height: 150px;
 		width: 150px;
 	}
-	
 	section{
 		margin: 0;
 		padding: 85px  2% 100px  2%;
 	}
-	
 	section:after{
 		content:"";
 		position: absolute;
@@ -130,9 +136,18 @@ footer p{
 		border-radius: 50%;
 		z-index: 0;
 	}
-
-
-	
+	figcaption {
+	display:block;
+	position:absolute; 
+	width:130px; 
+	padding:10px; 
+	transition: .5s ease-in;
+	opacity: 0;
+	}
+	figure:hover figcaption{
+		z-index: 2;
+		opacity: 1;
+	}	
 	#about:after{
 		background-color:#E9E893;
 	}
@@ -141,12 +156,9 @@ footer p{
 	}
 	#contact:after{
 		display: none;
-	}
-	
+	}	
 	footer{
 		width: 100%;
 		margin-left: 0;
 	}
-	
-	
 }

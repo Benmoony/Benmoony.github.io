@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CSS Review Exercise</title>
+<style>
+
+
+li{font-family: Arial;}
+
+.spaced li{ 
+margin-top: 5px;
+list-style-type: square;
+}
+
+article img{
+border: 10px solid yellow;
+display: block;
+text-align: center;
+margin: auto;
+
+}
+
+section{
+position: bottom;
+display: inline-block;
+margin-right: 20px;
+}
+
+article{
+margin: auto;
+width: 600px;
+}
+
+ol li:nth-child(odd){
+background-color: yellow;
+} 
+/* Color every other line of the second list yellow (#FFCE53) */
+
+</style>
+</head>
+
+<body>
+<header>
+<h1>CSS Review Exercise</h1>
+<p><a href="finishedSandwich.png">Style the page</a> using  the steps in described in the page's internal &lt;style&gt; sheet. Include any notes or links to reference material as additional comments for yourself.</p>
+</header>
+<article>
+  <h2>The Sandwich</h2>
+  <img width=600 height=375 src="http://1.bp.blogspot.com/_XmnRmSZiXqg/SqMVF_0MEoI/AAAAAAAAALE/FgC4Mm-yAUI/s576/peanut-butter-banana-sandwich.jpg" alt="Peanut Butter and Banana Sandwich"/>
+  <section>
+    <h3>Shopping List</h3>
+    <ul class="spaced">
+      <li>bananas</li>
+      <li>peanut butter</li>
+      <li>bread</li>
+      <li>honey</li>
+    </ul>
+  </section>
+  <section>
+    <h3>Put it Together</h3>
+    <ol>
+      <li>bread</li>
+      <li>toast it</li>
+      <li>peanut butter</li>
+      <li>honey</li>
+      <li>bananas</li>
+    </ol>
+  </section>
+  <section>
+    <h3>Lunch Time</h3>
+    <ul class="spaced">
+      <li>cold milk</li>
+      <li>extra honey</li>
+       <li>napkins</li>
+     
+    </ul>
+  </section>
+
+</article>
+</body>
+</html>
