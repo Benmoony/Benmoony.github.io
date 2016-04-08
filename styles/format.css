@@ -44,7 +44,14 @@ section h1{
 footer{
 	background-color: #494E52;
 }
+@media screen and (min-width: 540px){
 
+	figcaption{
+		background-color: white;
+		width: 30%;
+		border-radius: 5%;
+	}
+}
 @media screen and (min-width: 720px){
 	body{
 	}

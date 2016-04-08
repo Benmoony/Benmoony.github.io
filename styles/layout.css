@@ -67,9 +67,12 @@ section{
 figure{
 	margin: 0;
 	margin-right: 0px;
+	margin-bottom: 20px;
+
 }
 figure img{
 	width: 100%;
+	border-radius: 50%;
 }
 
 figcaption{
@@ -90,7 +93,7 @@ footer p{
 	width: 100%;
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 540px){
 	body{
 	}
 	nav{
@@ -125,20 +128,15 @@ footer p{
 		margin: 0;
 		padding: 85px  2% 100px  2%;
 	}
-	section:after{
-		content:"";
-		position: absolute;
-		display: inline-block;
-		width: 200px;
-		height: 200px;
-		margin-left: 37.5%;
-		background-color: black;
-		border-radius: 50%;
-		z-index: 0;
+	figure{
+		margin-bottom: 0;
 	}
+
 	figcaption {
 	display:block;
-	position:absolute; 
+	position:relative;
+	top: -200px;
+	left: 10%; 
 	width:130px; 
 	padding:10px; 
 	transition: .5s ease-in;
@@ -160,5 +158,19 @@ footer p{
 	footer{
 		width: 100%;
 		margin-left: 0;
+	}
+
+}
+@media screen and (min-width: 720px){
+		section:after{
+		content:"";
+		position: absolute;
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin-left: 37.5%;
+		background-color: black;
+		border-radius: 50%;
+		z-index: 0;
 	}
 }
