@@ -80,17 +80,22 @@ figcaption{
 }
 
 footer{
-		margin-left: 30%;
-		width: 75%;
+		width: 100%;
 		bottom: 0;
 		height: 60px;
 		padding-top: 10px;
 	}
+
+footer img{
+	position: absolute;
+	left: 2.5%;
+}
 	
 footer p{
 	display: block;
 	text-align: center;
-	width: 100%;
+	width: 75%;
+	margin-left: 25%
 }
 
 @media screen and (min-width: 540px){
@@ -128,8 +133,20 @@ footer p{
 		margin: 0;
 		padding: 85px  2% 100px  2%;
 	}
+	section:after{
+		content:"";
+		position: relative;
+		display: inline-block;
+		width: 95%;
+		border-top: 5vw solid #494E52;
+		border-left: 2.5vw solid transparent;
+		border-right: 2.5vw solid transparent;
+		top: 120px;
+		z-index: 15;
+
+	}
 	figure{
-		margin-bottom: 0;
+		height: 30vw;
 	}
 
 	figcaption {
@@ -146,12 +163,6 @@ footer p{
 		z-index: 2;
 		opacity: 1;
 	}	
-	#about:after{
-		background-color:#E9E893;
-	}
-	#work:after{
-		background-color:#92E893;
-	}
 	#contact:after{
 		display: none;
 	}	
@@ -162,15 +173,4 @@ footer p{
 
 }
 @media screen and (min-width: 720px){
-		section:after{
-		content:"";
-		position: absolute;
-		display: inline-block;
-		width: 200px;
-		height: 200px;
-		margin-left: 37.5%;
-		background-color: black;
-		border-radius: 50%;
-		z-index: 0;
-	}
 }
