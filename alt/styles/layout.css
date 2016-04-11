@@ -76,10 +76,7 @@ figure img{
 }
 
 figcaption{
-	display: block;
-	background-color: white;
-	padding: 2%;
-	border-radius: 25px;
+	display: none;
 }
 
 footer{
