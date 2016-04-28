@@ -4,22 +4,38 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Ben Miller</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="styles/normalize.css" type="text/css"/>
-	<link rel="stylesheet" href="styles/skeleton.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/format.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
-	
+	<link rel="stylesheet" href="styles/skeleton.css" type="text/css"/>
+	<link rel="stylesheet" href="styles/iconfonts.css" type="text/css"/>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".navdrop").click(function(){
+				var check = $(".nav");
+				if( $(check).hasClass("navactive"))
+				{
+					$(check).removeClass("navactive");
+				} 
+				else{
+					$(check).addClass("navactive");
+				}
+				
+			});
+		});
+	</script>
 </head>
 
 <body>
-	<header id="nav" class="container">
-		<nav>
-		<div class="logo">
-			<img src="images/BENLOGO.png" alt="logo">
-		</div>
-		<a class="first" href="#about"><span>ABOUT</span></a>
-		<a href="#work"><span>WORK</span></a>
-		<a href="#contact"><span>CONTACT</span></a>
+	<header id="nav">
+	<div class="navdrop"><span class="icon-hipster2"></span></div>
+		<nav class="nav">
+		<a class="first" href="#about"><span>About</span></a>
+		<a href="#work"><span>Work</span></a>
+		<a href="#contact"><span>Contact</span></a>
 		</nav>
 	</header>
 <section id="about">
@@ -32,18 +48,18 @@
 	<section id="work">
 	<h1>Work</h1>
 		<div class="row">
-			<figure class="one-third column">
+			<figure class="four columns">
 			<a href="projects/firstwebsite/index.html" alt="bit112"><img src="images/firstportfolio.png"></a>
 				<figcaption>First Website:
 				<p>First portfolio website created when learning CSS and HTML for the first time</p>
 				</figcaption>
 			</figure>			
-			<figure class="one-third column">
+			<figure class="four columns">
 				<a href="projects/finalproject/index.html"><img src="images/QforH.png" alt="questforharmony"></a>
 				<figcaption>Final Project: Final Project for BIT 112 created using one of my favorite artists assets for one of his project's "Quest for Harmony"
 				</figcaption>
 			</figure>
-			<figure class="one-third column">
+			<figure class="four columns">
 				<a href="projects/bit168/index.html"><img src="images/bit168.png" alt="BIT_168"></a>
 				<figcaption>Portfolio Website BIT 168: My portfolio website from BIT 168 showcasing use of animations and better understanding of design and layout</figcaption>
 			</figure>
@@ -62,7 +78,7 @@
 	<p>Please feel free to contact me through linkedin or my email: benmiller92@gmail.com</p>
 	</section>
 	<footer>
-		<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="projects/bit168/images/linkedin.jpg" alt="linkedin" style="border-radius: 50%"></a> 
+		<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="../projects/bit168/images/linkedin.jpg" alt="linkedin" style="border-radius: 50%"></a> 
 		<p>Copyright &copy Benjamin Miller all rights reserved</p>
 	</footer>
 </body>

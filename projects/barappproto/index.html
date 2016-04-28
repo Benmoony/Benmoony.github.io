@@ -96,7 +96,20 @@
                 <div style="padding:10px 20px;">
                     <h3>Add a Liqour to your Collection</h3>
                     <label for="un" class="ui-hidden-accessible">Add A Liquor:</label>
-                    <input type="text" name="liquor" id="un" value="" placeholder="liquor-name" data-theme="b">                   
+                    <div class="ui-field-contain">
+                        <select name="select-native-1" id="select-native-1">
+                            <option value="1">Whiskey</option>
+                            <option value="2">Vodka</option>
+                            <option value="3">Tequila</option>
+                            <option value="4">Gin</option>
+                            <option value="5">Rum</option>
+                            <option value="6">Scotch</option>
+                            <option value="7">Vermouth</option>
+                            <option value="8">Bourbon</option>
+                            <option value="9">Brandy</option>
+                        </select>
+                    </div>
+                    <input type="text" name="liquor" id="un" value="" placeholder="liquor-name" data-theme="b">
                     <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-plus">Add</button>
                 </div>
             </form>
@@ -128,5 +141,63 @@
         </footer>
     </div>
     <!--end of page-->
+    <!--ingredients page-->
+    <div data-role="page" data-theme="b" id="ingredients">
+        <header data-role="header" data-theme="b">
+            <h1>Ingredients</h1>
+            <a href="#addi" data-rel="popup" data-position-to="window" class="ui-btn ui-icon-plus ui-btn-icon-notext ui-corner-all ui-btn-right"></a>
+        </header>
+
+        <div data-role="popup" data-theme="b" id="addi" class="ui-corner-all">
+            <form>
+                <div style="padding:10px 20px;">
+                    <h3>What Ingredients do you have?</h3>
+                    <label for="un" class="ui-hidden-accessible">Add an Ingredient:</label>
+                    <div class="ui-field-contain">
+                        <select name="select-native-1" id="select-native-1">
+                            <option value="1">Bitters</option>
+                            <option value="2">Citrus Fruits</option>
+                            <option value="3">Tonic Water</option>
+                            <option value="4">Juices</option>
+                            <option value="5">Soda</option>
+                            <option value="6">Soda Waters</option>
+                            <option value="7">Fresh Herbs</option>
+                            <option value="8">Garnishes</option>
+                            <option value="9">Olives</option>
+                            <option value="10">Fresh Fruit</option>
+                        </select>
+                    </div>
+                    <input type="text" name="liquor" id="un" value="" placeholder="ingredient-name" data-theme="b">
+                    <button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-b ui-btn-icon-left ui-icon-plus">Add</button>
+                </div>
+            </form>
+        </div>
+
+        <section data-role="main" class="ui-content">
+            <div class="ui-grid-b">
+                <div class="ui-block-a"><a href="#" class="ingredient ui-btn ui-corner-all">Bitters</a></div>
+                <div class="ui-block-b"><a href="#" class="ingredient ui-btn ui-corner-all">Citrus Fruits</a></div>
+                <div class="ui-block-c"><a href="#" class="ingredient ui-btn ui-corner-all">Fresh Fruit</a></div>
+                <div class="ui-block-a"><a href="#" class="ingredient ui-btn ui-corner-all">Tonic Water</a></div>
+                <div class="ui-block-b"><a href="#" class="ingredient ui-btn ui-corner-all">Juices</a></div>
+                <div class="ui-block-c"><a href="#" class="ingredient ui-btn ui-corner-all">Soda</a></div>
+                <div class="ui-block-a"><a href="#" class="ingredient ui-btn ui-corner-all">Soda Water</a></div>
+                <div class="ui-block-b"><a href="#" class="ingredient ui-btn ui-corner-all">Fresh Herbs</a></div>
+                <div class="ui-block-c"><a href="#" class="ingredient ui-btn ui-corner-all">Garnishes</a></div>
+                <div class="ui-block-a"><a href="#" class="ingredient ui-btn ui-corner-all">Olives</a></div>
+            </div>
+        </section>
+
+        <footer data-role="footer" data-theme="b" data-position="fixed">
+            <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#collection" data-icon="grid">Collection</a></li>
+                <li><a href="#ingredients" data-icon="grid">Ingredients</a></li>
+                <li><a href="#recipies" data-icon="star">Recipies</a></li>
+            </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
