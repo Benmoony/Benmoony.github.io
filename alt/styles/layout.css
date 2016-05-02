@@ -7,8 +7,13 @@ body{
 	font-size: 150%;
 }
 
+footer p{
+	margin-bottom: 0;
+}
+
 figure{
 	margin: 0;
+	overflow: hidden;
 }
 
 header{
@@ -31,7 +36,7 @@ header{
 nav{
 	width: 150px;
 	margin-left: 12.5px;
-	display: none
+	display: none;
 }
 
 .navactive{
@@ -41,7 +46,7 @@ nav{
 nav a{
 	display: block;
 	padding: 10px;
-	text-align: center
+	text-align: center;
 
 }
 
@@ -57,23 +62,44 @@ nav a{
 	margin-bottom: 20px;
 }
 
+
+
 figure img{
 	display: block;
 	margin: 0 auto;
 }
 
 
+figcaption{
+	display: block;
+	position: relative;
+	width: 280px;
+	margin: 0 auto;
+}
+
+section p{
+	padding: 20px;
+}
+
+footer{
+	bottom: 0px;
+}
+
 
 @media screen and (min-width: 540px){
 	figure img{
-		width: 33vw;
-		height: 33vw;
+		width: 30vw;
+		height: 30vw;
+	}
+
+	figcaption{
+		display: none;
+		width: 100%;
 	}
 
 	#about img{
 		height: 200px;
 		width: 200px;
-		float: left;
 	}
 
 	.navdrop{
@@ -83,13 +109,25 @@ figure img{
 	nav{
 		display: block;
 		width: 100%;
+		margin: 0 auto;
 
 	}
 	nav a{
 		display: inline-block;
 		width: 15%;
 		height: 53px;
+		padding-top: 20px;
+		padding-right: 15px;
 	}
+
+	section h1{
+		margin-left: 20px;
+	}
+
+	#about p{
+		margin-bottom: 0;
+	}
+
 }
 
 }

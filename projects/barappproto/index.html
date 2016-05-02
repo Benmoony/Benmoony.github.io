@@ -27,6 +27,14 @@
         .suggest{
             height: 300px;
         }
+
+        #old{
+            display: block;
+            width:50%;
+            margin: 0 auto;
+            margin-top: 20px;
+            border-radius: 5%;
+        }
     </style>
 </head>
 
@@ -198,6 +206,72 @@
             </ul>
             </nav>
         </footer>
+    </div>
+    <!--endpage-->
+    <!--recipies-->
+    <div data-role="page" data-theme="b" id="recipies">
+        <header data-role="header" data-theme="b">
+            <h1>Recipies</h1>
+        </header>
+        <ul data-role="listview" data-filter="true" data-filter-placeholder="Search recipies..." data-inset="true">
+            <li><a href="#oldfashion">Old Fashion</a></li>
+            <li><a href="#">Gin & Tonic</a></li>
+            <li><a href="#">Mannhattan</a></li>
+            <li><a href="#">Vodka Martini</a></li>
+            <li><a href="#">Whiskey Sour</a></li>
+            <li><a href="#">Margarita</a></li>
+            <li><a href="#">Mojito</a></li>
+        </ul>
+        <footer data-role="footer" data-theme="b" data-position="fixed">
+            <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#collection" data-icon="grid">Collection</a></li>
+                <li><a href="#ingredients" data-icon="grid">Ingredients</a></li>
+                <li><a href="#recipies" data-icon="star">Recipies</a></li>
+            </ul>
+            </nav>
+        </footer>
+    </div>
+    <!--endpage-->
+    <!--Oldfasioned-->
+    <div data-role="page" data-theme="b" id="oldfashion">
+        <header data-role="header" data-theme="b">
+            <h1>Oldfashion</h1>
+        </header>
+        <section data-role="main" class="ui-content">
+            <img src="images/oldfashion.jpg" id="old">
+            <h2>Ingredients:</h2>
+            <ul>
+                <li>2 teaspoons simple syrup</li>
+                <li>1 teaspoon water</li>
+                <li>2 dashes bitters</li>
+                <li>ice cubes</li>
+                <li>1-2 ounces of bourbon whiskey</li>
+                <li>1 sliced orange</li>
+                <li>garnish of choice</li>
+            </ul>
+            <h2>Directions</h2>
+            <ol>
+                <li>In oldfashioned glass, combine syrup and bitters</li>
+                <li>Fill flass halfway with ice & stir about a dozen times</li>
+                <li>Add enough ice to fill the glass</li>
+                <li>Squeeze orange peel over glass to extract oils, and peel to glass</li>
+                <li>Add Whiskey, stir about a dozen times until drink is cold and alcohol has softened</li>
+                <li>Garnish with Cherry or garnish of choice</li>
+            </ol>
+        </section>
+        <footer data-role="footer" data-theme="b" data-position="fixed">
+            <nav data-role="navbar">
+            <ul>
+                <li><a href="#home" data-icon="home">Home</a></li>
+                <li><a href="#collection" data-icon="grid">Collection</a></li>
+                <li><a href="#ingredients" data-icon="grid">Ingredients</a></li>
+                <li><a href="#recipies" data-icon="star">Recipies</a></li>
+            </ul>
+            </nav>
+        </footer>
+        
     </div>
 </body>
 </html>
