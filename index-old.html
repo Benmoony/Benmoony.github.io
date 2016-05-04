@@ -4,47 +4,34 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Ben Miller</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link rel="stylesheet" href="styles/normalize.css" type="text/css"/>
+	<link rel="stylesheet" href="styles/skeleton.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/format.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
-	<link rel="stylesheet" href="styles/skeleton.css" type="text/css"/>
 	<link rel="stylesheet" href="styles/iconfonts.css" type="text/css"/>
-
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$(".navdrop").click(function(){
-				var check = $(".nav");
-				if( $(check).hasClass("navactive"))
-				{
-					$(check).removeClass("navactive");
-				} 
-				else{
-					$(check).addClass("navactive");
-				}
-				
-			});
-		});
-	</script>
+		<!-- dasdfasdfasdf -->
 </head>
 
 <body>
-	<header id="nav">
-	<div class="navdrop"><span class="icon-hipster2"></span></div>
-		<nav class="nav">
-		<a class="first" href="#about"><span>About</span></a>
-		<a href="#work"><span>Work</span></a>
-		<a href="#contact"><span>Contact</span></a>
+	<header id="nav" class="container">
+		<nav>
+		<div class="logo">
+			<img src="images/BENLOGO.png" alt="logo">
+		</div>
+		<a class="first" href="#about"><span>ABOUT<span class="icon-user-tie"></span></span></span></a>
+		<a href="#work"><span>WORK<span class="icon-checkmark"></span></span></a>
+		<a href="#contact"><span>CONTACT<span class="icon-github"></span></span></a>
 		</nav>
 	</header>
-<div class="wrapper">
 <section id="about">
 	<h1>About</h1>
 	<img class="face" src="images/benface.jpg" alt="benface">
 	<p>Hello and welcome to my website. This website was built by me as a portfolio for my work at Cascadia Community College. Here you will find links to my classes and exercises that I worked on as well as websites I built at Cascadia. I am incredibly excited to continue down the path of front end web design and really want to make a career out of it. I thank you for reading and take this as a showcase of my beginning steps into the world of Interactive Media Design.</p>
 	
 	<p>I was born in Boston, Massachusetts and was raised in Seattle Washington during my childhood. After attending the Bush School for highschool, I went to the Schulich School of Music in Montreal, Quebec for two years as a bassoon performance major. However I decided to change career paths and came back home to study programming and web design at Cascadia College and am hoping to transfer into the UW Bothell IMD program. My current career aspirations are to work within the Video Game Industry or the Web Industry and create experiences that shape lives and give people lasting impression on their soul.</p>
+
+	<a href="svgpractice.html">SVG Practice</a>
+	<a href="alt/index.html">Alternate CSS for page</a>
 	</section>
 	<section id="work">
 	<h1>Work</h1>
@@ -52,7 +39,7 @@
 			<figure class="four columns">
 			<a href="projects/firstwebsite/index.html" alt="bit112"><img src="images/firstportfolio.png"></a>
 				<figcaption>First Website:
-				First portfolio website created when learning CSS and HTML for the first time
+				<p>First portfolio website created when learning CSS and HTML for the first time</p>
 				</figcaption>
 			</figure>			
 			<figure class="four columns">
@@ -74,15 +61,13 @@
 	</section>
 	<section id="contact">
 	<h1>Resume</h1>
-	<p>Click <a href="projects/bit168/documents/BenjaminMillerResume.pdf">Here</a> to view my resume</p>
+	<p>Click <a href="projects/bit168/documents/BenjaminMillerResume.pdf"><span class="icon-glass"></span>Here<span class="icon-glass"></span></a> to view my resume</p>
 	<h1>Contact</h1>
 	<p>Please feel free to contact me through linkedin or my email: benmiller92@gmail.com</p>
 	</section>
-</div>
 	<footer>
-		<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="../projects/bit168/images/linkedin.jpg" alt="linkedin" style="border-radius: 50%"></a> 
+		<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="projects/bit168/images/linkedin.jpg" alt="linkedin" style="border-radius: 50%"></a> 
 		<p>Copyright &copy Benjamin Miller all rights reserved</p>
 	</footer>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
 </body>
 </html> 

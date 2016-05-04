@@ -1,78 +1,94 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
 html{
+	width: 100%;
 }
 
 body{
-	background-color: #E9E893;
-	font-family: 'Montserrat', sans-serif;
+	background-color: #110E3A;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	color: white;
+}
+
+header{
+	background: linear-gradient(to bottom, rgba(178,220,232,1) 0%,rgba(17,14,58,0) 100%);
 }
 
 nav{
-	background-color: #494E52;
-}
-
-.logo{
-	background-color: #D4CA85;
-	border-radius: 5%;
-}
-
-.logo img{
-	display: block;
-	width: 100%;
-	height: 100%;
-}
-
-.face{
-	border-radius: 40%;
+	background: linear-gradient(to bottom, rgba(17,14,58,0) 0%,rgba(178,220,232,1) 100%);
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
 }
 
 nav a{
-	font-size: .7em;
-	background-color: black;
-	color: white;
+	font-size: 125%;
 	text-decoration: none;
-	text-align: Center;
-	padding: .2em;
-	border-radius: 5%;
-	
+	font-family: 'Tangerine', cursive;
+	font-weight: bold;
+	color: white;
 }
 
-section h1{
-	text-align: center;
+.navdrop{
+	background-color: white;
+	color: black;
+	border-top-right-radius: 25%;
+	border-top-left-radius: 25%;
 }
 
-footer{
-	background-color: #494E52;
+.navactive{
+	animation: navdropdown .4s linear forwards;
 }
+
+#about img{
+	border-radius: 10%;
+}
+
+section > h1{
+	font-family: 'Maven Pro', sans-serif;
+	margin-left: 20px;
+}
+
+figure img{
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 25%;
+}
+
+figcaption{
+	background-color: rgba(99,99,99,.5);
+}
+
 @media screen and (min-width: 540px){
-
-	figcaption{
-		background-color: white;
-		width: 30%;
-		border-radius: 5%;
-	}
-}
-@media screen and (min-width: 720px){
-	body{
-	}
-
-	nav a{
+	#about img{
 		
 	}
-
-	.face{
-		float: left;
-		padding-right: 10px;
-		padding-bottom: 5px;
-		border-radius: 0;
+	.navdrop{
+		display none;
 	}
 
-	section h1{
-		text-align: left;
+	nav{
+		background-color: transparent;
+		background: none;
+		font-size: 150%;
+			}
+
+	nav a{
+		border-right: 2px solid white;
 	}
 
-	#about{
-	
+	footer{
+		display: block;
+		background-color: black;
+		color: white;
 	}
 
+}
+@media screen and (min-width: 720px){
+}
+
+@keyframes navdropdown{
+	0% {opacity: 0; height: 0;}
+	100%{opacity: 1; height: 126px;}
 }

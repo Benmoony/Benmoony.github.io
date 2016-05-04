@@ -7,173 +7,142 @@ body{
 	font-size: 150%;
 }
 
-.logo{
-	position: absolute;
-		margin: 5px;
-		width: 60px;
-		height: 60px;
-		right: 5px;
-		border-radius: 25%;
+footer p{
+	margin-bottom: 0;
 }
 
-nav{
-	height: 75px;
+figure{
+	margin: 0;
+	overflow: hidden;
+}
+
+header{
 	width: 100%;
-	min-width: 320px;
+	height: 75px;
+	padding: 0;
 	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 20;
+	top: 0;
+
+}
+
+.navdrop{
+	width: 15px;
+	height: 15px;
+	padding: 15px;
+	margin: 12.5px 0  0 12.5px;
+}
+
+
+nav{
+	width: 150px;
+	margin-left: 12.5px;
+	display: none;
+}
+
+.navactive{
+	display: block;
 }
 
 nav a{
-	width: 65px;
-	height: 65px;
-	padding: 0;
-	top: 0;
-	display: inline-block;
+	display: block;
+	padding: 10px;
+	text-align: center;
+
 }
 
-nav>a>span{
-	transform: rotate(90deg);
+#about{
+	margin-top: 80px;
 }
 
-.first{
-	margin-left: 5px;
-}
-
-.face{
+#about img{
 	display: block;
 	margin: 0 auto;
-	width: 100px;
 	height: 100px;
-}
-
-section{
-	margin: 0;
-	padding: 85px  2% 100px  2%;
-	padding-left: 2%;
-	padding-bottom: 30px;
-	padding-top: 85px;
-}
-
-#work{
-	background-color: #92E893;
-}
-
-#contact{
-	background-color: #92BF93;
-}
-figure{
-	margin: 0;
-	margin-right: 0px;
+	width: 100px;
 	margin-bottom: 20px;
+}
 
-}
+
+
 figure img{
-	width: 100%;
-	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
 }
+
 
 figcaption{
 	display: block;
-	background-color: white;
-	padding: 2%;
-	border-radius: 25px;
+	position: relative;
+	width: 280px;
+	margin: 0 auto;
+}
+
+section p{
+	padding: 20px;
 }
 
 footer{
-		width: 100%;
-		bottom: 0;
-		height: 60px;
-		padding-top: 10px;
-	}
-
-footer img{
-	position: absolute;
-	left: 2.5%;
+	bottom: 0px;
 }
 
-footer p{
-	display: block;
-	text-align: center;
-	width: 75%;
-	margin-left: 25%
-}
 
 @media screen and (min-width: 540px){
-	body{
-	}
-	nav{
-		height: 85px;
-		padding-left: 10px;
-	}	
-	.logo{
-		position: absolute;
-		margin: 10px;
-		width: 60px;
-		height: 60px;
-		right: 15px;
-		border-radius: 25%;
-	}	
-	nav a{
-		display: inline-block;
-		width: 19.5%;
-		margin-top: 12.5px;
-		padding-top: 10px;
-		height: 50px;
-		transition: .25s ease-in;
-	}
-	nav a:hover{
-		color: #7B6188;
-		width: 22.5%;
-	}
-	.face{
-		height: 150px;
-		width: 150px;
-	}
-	section{
-		margin: 0;
-		padding: 85px  2% 100px  2%;
-	}
-	section:after{
-		content:"";
-		position: relative;
-		display: inline-block;
-		width: 95%;
-		border-top: 5vw solid #494E52;
-		border-left: 2.5vw solid transparent;
-		border-right: 2.5vw solid transparent;
-		top: 120px;
-		z-index: 15;
-
-	}
-	figure{
+	figure img{
+		width: 30vw;
 		height: 30vw;
 	}
 
-	figcaption {
-	display:block;
-	position:relative;
-	top: -200px;
-	left: 10%; 
-	width:130px; 
-	padding:10px; 
-	transition: .5s ease-in;
-	opacity: 0;
-	}
-	figure:hover figcaption{
-		z-index: 2;
-		opacity: 1;
-	}	
-	#contact:after{
+	figcaption{
 		display: none;
-	}	
-	footer{
 		width: 100%;
-		margin-left: 0;
+	}
+
+	#about img{
+		height: 200px;
+		width: 200px;
+	}
+
+	.navdrop{
+		display: none;
+	}
+
+	nav{
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+
+	}
+	nav a{
+		display: inline-block;
+		width: 15%;
+		height: 53px;
+		padding-top: 20px;
+		padding-right: 15px;
+	}
+
+	section h1{
+		margin-left: 20px;
+	}
+
+	#about p{
+		margin-bottom: 0;
 	}
 
 }
+
+}
 @media screen and (min-width: 720px){
+}
+@media screen and (min-width: 940px){
+	.wrapper{
+		width: 940px;
+		display: block;
+		margin: 0 auto;	
+	}
+
+	figure img{
+		width: 292px;
+		height: 292px;
+
+	}
 }
