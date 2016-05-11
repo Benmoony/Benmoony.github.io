@@ -53,11 +53,11 @@ section > h1{
 
 figure img{
 	border-top-left-radius: 25%;
-	border-bottom-right-radius: 25%;
+	border-bottom-right-radius: 40%;
 }
 
 figcaption{
-	background-color: rgba(99,99,99,.5);
+	background-color: rgba(99,99,99,.8);
 }
 
 @media screen and (min-width: 540px){
