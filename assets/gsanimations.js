@@ -22,12 +22,10 @@ window.onload = function() {
 	$(".clickable").click(function(){
 
 		var e_href = $(this).attr("href");
-
 		if( $("c_section").hasClass("clicked"))
 		{
 			$("c_section").removeClass("clicked");
 		}
-		
 		$(e_href).addClass("clicked");
 		
 
