@@ -1,0 +1,54 @@
+body{
+	display: inline;
+	margin: 0;
+}
+
+svg{
+
+}
+.moon-dance{
+	position: fixed;
+	left:50%;
+	top:50%;
+	margin-top:-250px;
+	margin-left:-250px;
+	transform-origin: center;
+	background-color: tan;
+	width:500px;
+	height:500px;
+	border-radius: 50%;
+}
+.moon-dance{
+	animation: moonrotate 20s linear infinite;a
+}
+
+
+.red-moon{
+	transform-origin: top left;
+	animation: moonrotate 10s linear infinite;
+}
+
+.black-moon{
+	transform-origin: right bottom;
+	animation-name: moonrotate wiggle;
+	animation: moonrotate 10s linear infinite;
+}
+
+@keyframes moonrotate {
+ 	from{
+ 		transform: rotate(0deg);
+ 	}
+ 	to{
+ 		transform: rotate(360deg);
+ 	}
+} 
+
+@keyframes wiggle{
+	10%, 90%{
+		transform: skew(10deg, 10deg);
+	}
+	40%, 100%{
+		tranform: skew(40deg, 50deg);
+	}
+
+}

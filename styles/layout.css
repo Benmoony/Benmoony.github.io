@@ -85,6 +85,10 @@ footer{
 	bottom: 0px;
 }
 
+.clicked{
+	padding-top: 75px;
+}
+
 
 @media screen and (min-width: 540px){
 	figure img{
