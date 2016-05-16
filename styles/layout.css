@@ -62,7 +62,6 @@ nav a{
 	margin-bottom: 20px;
 }
 
-
 figure img{
 	display: block;
 	margin: 0 auto;
@@ -90,6 +89,10 @@ footer{
 	padding-top: 175px;
 }
 
+h4{
+	background-color: black;
+	color: white;
+}
 
 @media screen and (min-width: 540px){
 	figure{

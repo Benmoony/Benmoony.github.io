@@ -1,5 +1,24 @@
 window.onload = function() {
 
+	$('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        margin:10,
+        video:true,
+        videoHeight: 300,
+        videoWidth: 600,
+        lazyLoad:true,
+        center:true,
+        responsive:{
+            480:{
+                items:2
+            },
+            600:{
+                items:4
+            }
+        }
+    });
+
 	$(".navdrop").click(function(){
 				var check = $(".nav");
 				if( $(check).hasClass("navactive"))
