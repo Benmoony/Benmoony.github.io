@@ -6,6 +6,7 @@ window.onload = function() {
         loop:true,
         margin:10,
         video:true,
+        autoWidth:true,
         videoHeight: 300,
         videoWidth: 600,
         lazyLoad:true,
