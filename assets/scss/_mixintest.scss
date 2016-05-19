@@ -1,0 +1,5 @@
+@mixin boxone($bone, $armadillo){
+	color: $bone;
+	background-color: $armadillo;
+	font-size: 50px;
+}

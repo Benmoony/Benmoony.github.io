@@ -1,0 +1,12 @@
+@import _variables.scss
+@import _mixintest.scss
+
+.boxy{
+	@include boxone($bone, $armadillo)
+	width: 500px;
+	p{
+		font-size: 20px;
+		color: $tradewind;
+		background-color: $chestnut-rose
+	}
+}
