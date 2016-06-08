@@ -1,0 +1,13 @@
+/* line 4, ../assets/scss/test.scss */
+.boxy {
+  color: #ded4b9;
+  background-color: #46433a;
+  font-size: 50px;
+  width: 500px;
+}
+/* line 7, ../assets/scss/test.scss */
+.boxy p {
+  font-size: 20px;
+  color: #64b6b1;
+  background-color: #ce534d;
+}

@@ -1,0 +1,281 @@
+body{
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+footer{
+	position: relative;
+	clear: left;
+	width: 100%;
+}
+
+footer>p{
+	position: relative;	
+	height: 60px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+header{
+	padding-top: 20px;
+	font-size: 24px;
+	height: 200px;
+	min-width: 960px;
+	position: relative;
+}
+
+header>h1{
+	width: 500px;
+	padding-left: 40px;
+	margin: 0px;
+	letter-spacing: 4px;
+}
+
+header>h1::first-letter{
+	font-size: 190px;
+	float: left;
+	line-height: 1;
+}
+
+.content{
+	max-width: 920px;
+	min-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+.contentexer{
+	max-width: 920px;
+	min-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+section p{
+	margin: 18px;
+}
+
+.content section{
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.content section h1{
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 100px;
+	font-size: 40px;
+	padding-left: 10px;
+	
+}
+
+.content article{
+	display: inline-block;
+	position: relative;
+	width: 30%;
+	max-width: 350px;
+	padding-top: 70px;
+	padding-left: 5%;
+	vertical-align: top;
+}
+
+.content article h1{
+	text-align: center;
+	font-size: 40px;
+}
+
+.content article img{
+	display: block;
+	margin: 0 auto;
+	border: 5px solid black;
+}
+
+.content article p{
+	border: 1px solid white;
+	padding: 5px;
+	display:inline-block;
+	word-wrap: break-word;
+}
+
+.newssection{
+	max-width: 920px;
+	min-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	min-height: 900px;
+}
+
+.newssection h1{
+	text-align: left;
+	margin-left: 16px;
+	font-size: 40px;
+	margin-top: 100px;
+	width: 300px;
+}
+
+img[src="images/benpose.jpg"]{
+	margin-left: 20px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+ol{
+	padding-left: 0;
+}
+
+ol>li{
+	width:840px;
+	height: 220px;
+}
+
+ol>li>img{
+	padding-top: 20px;
+	padding-left: 20px;
+	position: absolute;
+}
+
+ol>li>h3, ol>li>p{
+	margin-left: 340px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.exercises img{
+	width: 280px;
+	height: 280px;
+	margin: 10px;
+	border-radius: 6%;
+	transition: all 0.5s ease;
+}
+
+.exercises img:hover{
+	border-radius: 50%;
+	border-color: black;
+	border-width: 40px;
+	
+}
+
+.exercontainer{
+	padding-left: 3px;
+}
+
+.exer h1{
+	text-align: left;
+	margin-left: 16px;
+	font-size: 40px;
+	margin-top: 100px;
+	border-bottom: 3px solid white;
+	width: 300px;
+}
+
+figure {
+	position: relative;
+	display: inline;
+	width: 280px;
+	height: 280px;
+	margin: 0;
+	margin-right: 0px;
+}
+
+figcaption {
+	display:block;
+	position:absolute; 
+	left:25%; top:-290px;
+	width:130px; 
+	padding:10px; 
+	transition: .5s ease-in;
+	opacity: 0;
+	}
+
+
+figure:hover figcaption {z-index:2; opacity: 1;}
+
+
+.hidden{
+	top: 0;
+	position: absolute;
+	z-index: -1;
+	height: 220px;
+	width: 200px;
+}
+
+#stickman{
+	position: absolute;
+	height: 100px;
+	width: 75px;
+	right: 160px;
+	top: 50px; 
+	transform: rotate(-20deg); 
+	opacity: 1;
+	z-index: -3;
+}
+
+#logo{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 200px;
+    height: 200px;
+	z-index: 1;
+}
+
+#tendrilsbox{
+	position: absolute;
+	width: 980px;
+	height: 150px;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+#tendrils{
+	position: absolute;
+	width: 100px;
+	height: 150px;
+}
+
+#wrapper{
+	min-height: 865px;
+	z-index: -1;
+}
+
+footer>p{
+	padding-top: 10px;
+}
+
+#facebook{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 18px;
+	bottom: 8px;
+}
+
+#facebook a{
+	width: 50px;
+	height: 50px;
+}
+
+#linkedin{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 90px;
+	bottom: 8px;
+}
+
+.epilogue{
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	border: none;
+}
+

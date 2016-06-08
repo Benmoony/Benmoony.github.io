@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Tangerine:400,700);
+@import url(https://fonts.googleapis.com/css?family=Maven+Pro);
+html{
+	width: 100%;
+}
+
+body{
+	background-color: #110E3A;
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	color: white;
+}
+
+header{
+	background: linear-gradient(to bottom, rgba(178,220,232,1) 0%,rgba(17,14,58,0) 100%);
+}
+
+nav{
+	background: linear-gradient(to bottom, rgba(17,14,58,0) 0%,rgba(178,220,232,1) 100%);
+	border-top-right-radius: 5%;
+	border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+}
+
+nav a{
+	font-size: 125%;
+	text-decoration: none;
+	font-family: 'Tangerine', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+.navdrop{
+	background-color: white;
+	color: black;
+	border-top-right-radius: 25%;
+	border-top-left-radius: 25%;
+}
+
+.navactive{
+	animation: navdropdown .4s linear forwards;
+}
+
+#about img{
+	border-radius: 10%;
+}
+
+section > h1{
+	font-family: 'Maven Pro', sans-serif;
+	margin-left: 20px;
+}
+
+figure img, figcaption{
+	border-top-left-radius: 25%;
+	border-bottom-right-radius: 40%;
+}
+
+figcaption{
+	background-color: rgba(99,99,99,.8);
+}
+
+@media screen and (min-width: 540px){
+	#about img{
+		
+	}
+	.navdrop{
+		display none;
+	}
+
+	nav{
+		background-color: transparent;
+		background: none;
+		font-size: 150%;
+			}
+
+	nav a{
+		border-right: 2px solid white;
+	}
+
+	footer{
+		display: block;
+		background-color: black;
+		color: white;
+	}
+
+}
+@media screen and (min-width: 720px){
+}
+
+@keyframes navdropdown{
+	0% {opacity: 0; height: 0;}
+	100%{opacity: 1; height: 126px;}
+}

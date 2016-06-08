@@ -1,0 +1,122 @@
+@font-face{
+	font-family: Rothenburg;
+	src: url('rothenbg-webfont.eot');
+    src: url('rothenbg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rothenbg-webfont.woff') format('woff'),
+         url('rothenbg-webfont.ttf') format('truetype'),
+         url('rothenbg-webfont.svg#webfontregular') format('svg');
+}
+@font-face{
+	font-family: BulgariaModern;
+	src: url('BulgariaModernaV3.otf');
+}
+@font-face{
+	font-family: Deutsch;
+	src: url('Deutsch.ttf');
+}
+@font-face{
+	font-family: Cardinal;
+	src: url('Cardinal.ttf');
+}
+@font-face{
+	font-family: DeutscheZierschrift;
+	src: url('DeutscheZierschrift.ttf');
+}
+@font-face{
+	font-family: aThemeformurder;
+	src: url('aThemeformurder.ttf');
+}
+@font-face{
+	font-family: KingWillBeKing;
+	src: url('KingWillBeKing.ttf');
+}
+@font-face{
+	font-family: LudlowStrongAle;
+	src: url('LudlowStrongAle.ttf');
+}
+@font-face{
+	font-family: Story;
+	src: url('StoryTelling.ttf')
+}
+
+html{
+font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}
+
+h1{
+font-family: Cardinal;
+font-size:60px;
+text-align: center;
+}
+nav{
+background-color: #020127;
+color: #FFFFFF;
+font-size: 14px;
+}
+
+nav ul{
+list-style: none;
+
+}
+nav li{
+display: inline;
+}
+
+#nav li{
+background: #020127;
+}
+
+#nav li a{
+text-decoration: none;
+color: #F2ED5C;
+text-align: center;
+}
+#nav ul a{
+display: block;
+height: 15px;
+padding: 6px 5px;
+color: #F2ED5C;
+text-align: left;
+}
+
+#nav a:hover{
+text-decoration: none;
+background-color: #F86808;
+}
+
+#enterbutton a{
+background-image: url("../images/logo.png");
+}
+
+#enterbutton a:hover{
+background-image: url("../images/glowlayer.png");
+}
+
+#patreon a{
+background-image: url("../images/patreonlogo.png");
+}
+
+#deviant a{
+background-image: url("../images/deviantart.png");
+}
+
+#tumblr a{
+background-image: url("../images/tumblrlogo.png");
+}
+
+#info{
+background-image: url("../images/textbackground.png");
+}
+
+#info p{
+font-size: 18pt;
+text-align: center;
+color: #F2ED5C;
+font-family: Story;
+}
+
+footer{
+text-align: center;
+color: #F2ED5C;
+background-color: #020127;
+}

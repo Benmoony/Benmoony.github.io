@@ -1,0 +1,18 @@
+nav>ol>li{
+background-image: url("../images/nav_background.gif");
+}
+nav>ol>li:hover{
+background-image: url("../images/nav_background_flip.gif");
+position: relative;
+left: 5px;
+}
+.current {
+background-image: url("../images/nav_background_flip.gif");
+position: relative;
+left: 25px;
+}
+
+.current:hover{
+position: relative;
+left: 25px;
+}

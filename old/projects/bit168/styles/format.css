@@ -1,0 +1,195 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@font-face{
+	font-family: 'Levibrush';
+	src: url('font/LEVIBRUSH.TTF');
+}
+
+body{
+	background: #000 url("../images/upperbackgroundtest4cropped.jpg") no-repeat top;
+	color: #FFF;
+	font-family: 'Quicksand', 'Open Sans', sans-serif;
+	
+}
+
+header{
+	text-align: center;
+	background: #000;
+	opacity: .9;
+	width: 100%;
+	font-family: 'Levibrush', 'Permanent Marker', cursive;
+	font-variant: small-caps;
+}
+
+header>h1{
+	background-color: #000;
+	text-align: left;
+	margin: 0px;
+	padding-top: 10px;
+	transition-property: color, margin-left, background-color;
+	transition-delay: 1s, 1s, 0;
+	transition-duration: 2s, 2s, 1s;
+}
+
+header>h1:hover{
+	color: #87CEFA;
+	margin-left: 200px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+section>h1{
+	text-align: center;
+	letter-spacing: .05em;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Quicksand', 'Open Sans', sans-serif;
+}
+
+h2{
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+section>p{
+	text-align: left;
+}
+
+ol{
+	list-style: none;
+}
+
+ol>li{
+	border-style: solid;
+	border-width: 2px 2px 0px 2px;
+	background-color: #494e52;
+}
+
+ol>li>h3{
+	font-variant: small-caps;
+	font-size: 30px;
+}
+
+footer{
+	background-color: #814F88;
+	text-align: center;
+}
+
+figcaption{
+	background:#f2eaea;
+	border:3px solid black;
+	border-radius:6px;
+	color: black;
+	font-size: 18px;
+}
+
+figcaption:after{
+	content:"";
+	display: block;
+	width:0;
+	height: 0;
+	border: 12px solid;
+	border-color: black transparent transparent transparent;
+	position: absolute;
+	bottom: -25px;
+	left: 40px;
+}
+
+.exercises{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.hidden{
+	background-color: #87CEFA;
+	opacity: .8;
+}
+
+#stickman{
+	background-color: #814F88;
+	
+}
+
+.stickmove{
+	animation: stickmove 6s ease-in forwards;
+}
+
+#logo {
+    position: relative;
+	background: url("../images/BENLOGO.png") no-repeat
+}
+
+.logomove{
+	animation: fadein 6s ease-in forwards;
+}
+
+
+.tendrilsActive{
+	background: url('../images/spritetendrils.png') no-repeat;
+	z-index: -1000;
+	animation: play .8s steps(9) forwards;
+}
+
+.content section h1{
+	border-bottom: 3px solid white;
+}
+
+.newssection h1{
+	border-bottom: 3px solid white;
+}
+
+.firstp{
+	border: 2px solid white;
+	padding: 10px 5px;
+}
+
+.wrappe{
+	border-bottom: 2px solid white;
+}
+
+#facebook{
+	background: #FFFFFF;
+	border-radius: 30%;
+	border: 2px solid black
+}
+
+#facebook img{
+	border-radius: 25%;
+}
+
+#linkedin{
+	background: #000;
+	border-radius: 30%;
+	border: 2px solid black
+}
+
+#linkedin img{
+	border-radius: 30%;
+	
+}
+
+@keyframes stickmove{
+	0%{ right: 500px; height: 100px; top: 120px; opacity: 0; transform: rotate(0deg);}
+	25%{ right: 400px; height: 100px; opacity: 1;}
+	40%{ right: 75px; top: 120px; height: 100px;}
+	45%{ right: 75px; top: 145px; height: 75px;}
+	50%{ right: 75px; top: 120px; height: 100px;}
+	60%{ right: 75px; top: 50px; height: 100px; transform: rotate(0deg);}
+	80%{right: 160px; top: 50px; height: 100px; transform: rotate(-20deg);}
+	100%{right: 160px; top: 50px; height: 100px; transform: rotate(-20deg); opacity: 1;}
+}
+
+@keyframes fadein {
+	0%{ opacity: 0;}
+	50%{ opacity: 0; top: 220px;}
+	60%{opacity: 1; top: 10px;}
+	100%{ opacity: 1; top: 10px;}
+}
+
+@keyframes play{
+	from{ background-position: 0px; }
+	to{ background-position: -900px;}
+}

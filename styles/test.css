@@ -1,0 +1,42 @@
+/* line 4, scss/test.scss */
+header {
+  background-color: #3e90b5;
+}
+/* line 7, scss/test.scss */
+header nav a {
+  display: inline-block;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 1%;
+  color: #535353;
+}
+
+/* line 19, scss/test.scss */
+body {
+  background-color: #f3f0e9;
+}
+
+/* line 23, scss/test.scss */
+.circle {
+  background-color: #3e90b5;
+}
+
+/* line 27, scss/test.scss */
+section {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+/* line 32, scss/test.scss */
+footer {
+  background-color: #a07f4c;
+}
+
+/* line 37, scss/test.scss */
+article p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  padding-left: 10px;
+  background-color: #a07f4c;
+}

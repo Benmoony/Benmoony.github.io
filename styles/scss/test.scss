@@ -1,0 +1,44 @@
+@import "variables";
+@import "mixintest";
+
+header{
+	@include nav($photon-shield);
+	nav{
+		a{
+			display: inline-block;
+			height: 50px;
+			margin-top: 10px;
+			margin-left: 1%;
+
+			color: $falck;
+		}
+	}
+}
+
+
+body{
+	background-color: $opaque;
+}
+
+.circle{
+	background-color: $photon-shield;
+}
+
+section{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+footer{
+	@include nav($snowfox);
+}
+
+article{
+	p{
+		margin-top: 5px;
+		margin-bottom: 5px;
+		border-radius: 10px;
+		padding-left: 10px;
+		background-color: $snowfox;
+	}
+}

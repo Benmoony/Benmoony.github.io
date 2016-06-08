@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ben's Profile</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="styles/format.css" type="text/css"/>
+<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+<link rel="stylesheet" href="styles/nav.css" type="text/css"/>
+<script>
+$(document).ready(function(){
+	$(".nav").hover(
+		function(){	
+			$("#tendrils").addClass('tendrilsActive').position({my: "center", at: "center top+115px", of: this});
+		},
+		function(){
+			$("#tendrils").removeClass('tendrilsActive');
+		}
+	);
+	$("#logo").click(function(){
+			$("#stickman").addClass("stickmove");
+			$("#logo").addClass("logomove");
+			
+		}
+	);
+	
+});
+</script> 
+</head><body><div id="wrapper">
+<header>
+<h1>Ben Miller</h1>
+<div class="hidden"></div>
+<div id="stickman">
+<p>Click</p>
+</div>
+<div id="logo"></div>
+</header>
+<nav id='cssmenu'>
+<ul>
+<li id="home" class="nav active"><a href='index.html'>Home</a></li>
+<li class="nav" id="news"><a href='news.html'>News</a></li>
+<li class="nav" id="exercises"><a href='exercises.html'>Exercises</a></li>
+<li class="nav" id="resume"><a href="documents/BenjaminMillerResume.pdf">Resume</a></li>
+<li class="nav last" id="contact"><a href='contact.html'>Contact</a></li>
+</ul>
+</nav>
+<div id="tendrilsbox">
+	<div id="tendrils"></div>
+</div>
+<div class="content"><section>
+<h1>ABOUT</h1>
+<p class="firstp">Hello and welcome to my website. This website was built by me as a portfolio for my work in my BIT 168 class at Cascadia College. Here I experimented with the use of animations, proper design layout, and a little bit of responsive design. This website is a real first step into the world of web design, and I am incredibly excited to continue down this path and make a career out of it. Though all of the navigation links lead somewhere, the News section is very barren and filled to the brim with lorem ipsum due to time constraints. I thank you for reading and take this as a showcase of my beginning steps into the world of Interactive Media Design.</p>
+<p>
+Aliquam erat volutpat. Aliquam vehicula, leo et mollis sollicitudin, sapien mauris maximus ex, tempus sagittis tellus lectus at nunc. Donec sit amet mauris euismod, faucibus lorem feugiat, rhoncus arcu. Aliquam mollis, risus eget tempor blandit, felis leo tincidunt libero, in facilisis nibh diam et tortor. In posuere mauris ut accumsan tristique. Curabitur at tristique mauris. Proin consectetur scelerisque tempor. Curabitur gravida sagittis erat, id suscipit neque consequat ut.</p>
+<p>
+Cras rhoncus ac odio in blandit. Vivamus pharetra vestibulum efficitur. Mauris mollis tincidunt mauris, id pharetra enim gravida eu. Sed a viverra justo. Phasellus dolor odio, efficitur et convallis id, iaculis eu nisl. Phasellus rhoncus dictum ipsum, non sodales nisl congue efficitur. Vivamus ut mauris et massa dictum rutrum eleifend ultrices ante. Ut sodales leo quis risus ultricies, ut rutrum sapien dapibus. Maecenas eu bibendum augue, id mollis odio. Etiam ac quam eget magna eleifend varius pellentesque ac mauris. Duis ipsum tortor, pulvinar vitae euismod at, suscipit id sem.</p>
+<p>
+Aenean tempor vehicula risus, vitae consectetur magna venenatis id. Donec imperdiet scelerisque mi, ut pellentesque leo. Cras vel rutrum leo, vitae venenatis arcu. Sed ac vestibulum sem. Aenean et nisi blandit, pharetra augue ac, ultricies massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus luctus posuere felis sed placerat. Fusce elementum mollis massa id bibendum. Nulla id odio est. Praesent placerat blandit varius. Proin a sodales felis. Aliquam at felis posuere, aliquam nibh vitae, aliquet tortor. Etiam at erat sem.</p>
+<p>
+Proin sapien neque, convallis gravida posuere in, malesuada vitae libero. Fusce ac bibendum dolor, sit amet consectetur augue. Etiam mi tellus, aliquam vel vehicula a, commodo non lectus. Aliquam vulputate, massa vitae sollicitudin finibus, ipsum quam imperdiet est, vitae tempus metus leo ut nisl. Nam ipsum ex, auctor ac eleifend faucibus, vestibulum quis sem. Suspendisse pharetra dui vel fermentum malesuada. Nam consectetur augue in velit imperdiet, a laoreet ligula volutpat. Nunc mollis nibh nec ex commodo, vel blandit ligula efficitur. Cras imperdiet euismod ex eget tempus. Donec mollis, arcu fringilla iaculis imperdiet, erat diam vestibulum enim, in ultricies mi arcu et nibh. Sed vel venenatis risus. Suspendisse luctus rhoncus metus. Etiam sagittis ex sollicitudin odio aliquet congue. Etiam sed felis vel lacus interdum feugiat id at felis. Ut tincidunt, lectus et auctor aliquam, tellus neque gravida tellus, id faucibus leo urna sit amet purus. Curabitur at velit malesuada, ultricies tortor eu, malesuada purus.</p>
+</section>
+<article>
+<img src="images/benface.jpg" alt="benface">
+<h2>Me</h2>
+<p>I was born in Boston, Massachusetts and was raised in Seattle Washington during my childhood. After attending the Bush School for highschool, I went to the Schulich School of Music in Montreal, Quebec for two years as a bassoon performance major. However I decided to change career paths and came back home to study programming and web design at Cascadia College and am hoping to transfer into the UW Bothell IMD program. My current career aspirations are to work within the Video Game Industry or the Web Industry and create experiences that shape lives and give people lasting impression on their soul.</p>
+</article>
+</div>
+<footer>
+<p>©Benjamin Miller, 2016, All Rights Reserve</p>
+<div id="facebook">
+	<a href='https://www.facebook.com/benjamin.miller.7712'><img src="images/facebook-icon.png" alt="facebook"></a>
+</div>
+<div id="linkedin">
+	<a href="https://www.linkedin.com/in/benjamin-miller-164038105"><img src="images/linkedin.jpg" alt="linkedin"></a>
+</div>
+</footer></div></body></html>  

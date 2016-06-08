@@ -1,0 +1,38 @@
+	<h1>Our Attorneys</h1>
+	<!-- List updated May 2008 -->
+	<ul>
+		<li>ALAN J. PEIZER. Position: Member. Born Seattle, Washington, 1951; admitted 
+		  to bar, 1976, Washington. Education: Claremont McKenna College (B.A., cum laude, 
+		  1973); University of Washington (J.D., 1976). Member, Editorial Board, Washington 
+		  Law Review, 1975-1976. Member: King County, Pierce County and Washington State 
+		  Bar Associations; Washington Defense Trial Lawyers; Washington State Trial Lawyers 
+		  Association. Practice Areas: Insurance Defense; Personal Injury.
+		</li>
+		<li>THOMAS G. RICHARDS. Position: Member. Born Detroit,         Michigan, 1949; 
+		  admitted to bar, 1975, Washington and U.S. District Court, Western District 
+		  of Washington. Education: University of Michigan (A.B., 1971); Wayne State University 
+		  (J.D., 1975). Court Clerk to U.S. District Judge Cornelia G. Kennedy, 1973-1975. 
+		  Attorney, Safeco Insurance Co., 1975-1981. Member: King County and Washington 
+		  State Bar Associations; Washington Defense Trial Lawyers (Trustee, 1977-1978). 
+		  Practice Areas: Insurance Defense; Personal Injury, Construction Litigation. 
+		</li>
+		<li>MARTIN L. ZIONTZ. Position: Member. Born Mather Air Force Base, California, 
+		  1954; admitted to bar, 1980, Washington; U.S. District Court, Western District 
+		  of Washington; U.S. Court of Appeals, Ninth Circuit. Education: University of 
+		  Chicago (B.A., with honors, 1976); Northwestern University (J.D., 1980). Co-author, 
+		  "A Negligence Action in Mexico: An Introduction to the Application of Mexican 
+		  Law in the United States," Arizona Journal of International and Comparative 
+		  Law, Vol. 7, No. 1, 1989. Member: King County, Washington State and American 
+		  Bar Associations; Washington Defense Trial Lawyers. Languages: Spanish. Special 
+		  Agencies: U.S. Office of Copyrights. Practice Areas: Antitrust; Insurance; Personal 
+		  Injury, Construction Litiagation.
+		</li>
+		<li>MARK J. WILSON. Position: Associate. Born Spokane, Washington, 1949; admitted 
+		  to bar, 1981, California; 1987, Washington. Education: University of California 
+		  at Berkeley (B.A., 1976); Whittier College (J.D., 1980). Delta Theta Phi. Member: 
+		  Santa Barbara County and American Bar Associations; State Bar of California; 
+		  Washington State Bar Association. Practice Areas: Personal Injury Law; Contracts 
+		  Law; Construction Law.
+		</li>
+	</ul>
+	

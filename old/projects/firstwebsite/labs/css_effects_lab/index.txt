@@ -1,0 +1,11 @@
+	<h1>Winning Justice for our Clients</h1>
+	<p>Our lawyers are dedicated to winning justice for honest people who have been seriously injured, or who have lost a loved one because of someone else's carelessness, recklessness, or other wrongful conduct.</p>
+	<ul>
+		<li>We are experienced, skillful, ethical attorneys</li>
+		<li>We only handle personal injury and wrongful death cases</li>
+		<li>Free initial consultation - learn your rights</li>
+		<li>Contingent fee - no attorneys fees unless we win</li>
+		<li>We handle cases throughout Washington and the United States</li>
+		<li>Most cases settle fast</li>
+		<li>Easy Seattle location, home and hospital visits throughout Washington in serious injury cases</li>
+	</ul>

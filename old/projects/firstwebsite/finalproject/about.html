@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quest for Harmony</title>
+<link rel="stylesheet" href="styles/format.css" type="text/css"/>
+<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#nav li').hover(
+        function () {
+            //show submenu
+            $('ul', this).slideDown("fast");
+        }, function () {
+            //hide submenu
+            $('ul', this).slideUp("fast");
+        });
+    });
+</script>
+<style>
+html{
+background-image: url("images/bloomtinker.jpg");
+background-repeat: no-repeat;
+} 
+h1{
+	margin-top: 75px;
+	margin-left: 200px;
+}
+</style>
+</head>
+<body>
+<nav>
+<ul id="nav">
+	<li><a href="home.html">Home</a></li>
+	<li><a href="#">Story</a>
+		<ul>
+			<li><a href="story.html">The Beginning</a>
+			<li><a href="betrayal.html">The Betrayal</a>
+			<li><a href="prophecy.html">The Prophecy</a>
+			<li><a href="runaway.html">Runaway</a>
+			<li><a href="journey.html">The Journey</a>
+			<li><a href="trials.html">Trials and Encounters</a>
+			<li><a href="defeat.html">Defeat</a>
+		</ul>
+	</li>
+	<li><a href="#">Characters</a>
+		<ul>
+			<li><a href="sun_god.html">Sun God</a>
+			<li><a href="moon_god.html">Moon God</a>
+			<li><a href="lavender.html">Lavender</a>
+			<li><a href="brash.html">Brash</a>
+			<li><a href="lady_lucid.html">Lady Lucid</a>
+			<li><a href="jester.html">Jester</a>
+			<li><a href="jack.html">Jack</a>
+			<li><a href="whisper.html">Whisper</a>
+		</ul>
+	</li>
+	<li><a href="about.html">About/Contact Us</a>
+</ul>
+</nav>
+<content>
+<h1>About Atryl</h1>
+<div id=info>
+<p>Atryl, otherwise known as Gabor Pataki, is a self taught artist who grew up in Hungary. He has been practising his craft since he was a child, and aspires to create art for video games and graphic novels
+</p>
+<p>Benjamin Miller is an aspiring website designer with a passion for fantasy and videogames.</p>
+</div>
+<div id="patreon">
+<a href="https://www.patreon.com/atryl?ty=h"></a>
+</div>
+<div id="deviant">
+<a href="http://atryl.deviantart.com/"></a>
+</div>
+<div id="tumblr">
+<a href="http://atryl.tumblr.com/"></a>
+</div>
+
+</content>
+<footer>
+	<p>All images copyrighted by Atryl and used with permission</p>
+	<p>Website created by Benjamin Miller (WARNING: pages only optimized for 1920x1080 window size)<p>
+</footer>
+</body>
