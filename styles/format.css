@@ -91,6 +91,7 @@ footer p{
 		border-radius: 50%;
 		z-index: 101;
 		background-image: url("../images/benface.jpg");
+		background-repeat: no-repeat;
 	}
 
 	.totop{
