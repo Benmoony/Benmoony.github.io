@@ -1,0 +1,56 @@
+h1{
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+h2{
+	font-size: 2.5em;
+}
+
+nav{
+	display: none;
+}
+
+section{
+	padding: 5%;
+}
+
+.item{
+	height: 300px;
+}
+
+.infobox{
+	padding: 2.5%;
+	padding-bottom: 20px;
+	margin-bottom: 5%;
+	height: 300px;
+	overflow: hidden;
+}
+
+
+@media screen and (min-width: 720px){
+
+	.infobox{
+		transition: height 1s ease;
+	}
+
+	.infobox:hover{
+		height: 430px;
+	}
+
+	.arrow-down {
+ 	 	width: 0; 
+  		height: 0; 
+  		border-left: 20px solid transparent;
+  		border-right: 20px solid transparent;
+  		border-top: 20px solid darkgreen;
+  		margin-left: 40%;
+	}
+}
+
+@keyframes scroll{
+	0% {height: 300px;}
+	100%{height: 500px;}
+}
