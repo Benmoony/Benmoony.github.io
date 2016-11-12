@@ -1,12 +1,13 @@
 h1{
 	margin: 0;
-	margin-top: 10px;
+	margin-top: 40px;
 	margin-bottom: 5%;
 	text-align: center;
 }
 
 h2{
-	font-size: 2.5em;
+	font-size: 1.75em;
+	text-align: center;
 }
 
 nav{
@@ -22,24 +23,32 @@ section{
 }
 
 .infobox{
-	padding: 2.5%;
+	padding: 5%;
 	padding-bottom: 20px;
+	margin: 0;
 	margin-bottom: 5%;
 	height: 300px;
 	overflow: hidden;
+	line-height: 1.2;
+}
+.special{
+	height: 200px;
 }
 
 
 @media screen and (min-width: 720px){
 
 	.infobox{
-		transition: height 1s ease;
+		height: 500px;
 	}
 
-	.infobox:hover{
-		height: 430px;
+	.infobox:not(:active){
+		transition: height 1s step-end;
 	}
 
+	.special{
+	height: 200px;
+	}
 	.arrow-down {
  	 	width: 0; 
   		height: 0; 

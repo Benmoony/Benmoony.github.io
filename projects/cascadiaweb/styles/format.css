@@ -7,12 +7,13 @@ body{
 	opacity: .65;
 	margin: 0 0 100px;
 	display: block;
-	background-color: #FFFDD0;
+	background: url("../images/print-pattern3.png") no-repeat center center fixed;
+	background-size: cover;
 }
 
 .infobox{
-	background-color: #09E85E;
-	border-radius: 20px;
+	background-color: #FFFDD0;
+	border-radius: 2.5px;
 }
 
 .jobtitle{
@@ -23,6 +24,7 @@ a{
 	text-decoration: none;
 	color: black;
 }
+
 
 footer{
 	display: block;
